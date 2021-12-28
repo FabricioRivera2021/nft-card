@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/FabricioRivera2021/nft-card)
-- Live Site URL: [Add live site URL here](https://fabriciorivera2021.github.io/nft-card/)
+- Solution URL: [https://github.com/FabricioRivera2021/nft-card](https://github.com/FabricioRivera2021/nft-card)
+- Live Site URL: [https://fabriciorivera2021.github.io/nft-card/](https://fabriciorivera2021.github.io/nft-card/)
 
 ## My process
 
