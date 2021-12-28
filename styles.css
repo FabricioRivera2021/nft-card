@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+p {
+  font-family: Outfit;
+}
+
+.text-white {
+  color: hsl(0, 0%, 100%);
+}
+
+.text-white:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 10px;
+  padding: 22px;
+  width: 345px;
+  height: 569px;
+  background-color: hsl(216, 50%, 16%);
+  box-shadow: 0 20px 20px 10px rgb(0, 0, 0, 0.2);
+}
+
+.card-img {
+  width: 100%;
+  height: 290px;
+  margin-bottom: 25px;
+}
+
+.card-img:hover {
+  cursor: pointer;
+  background-image: url(./images/icon-view.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: hsl(178, 100%, 45%);
+  border-radius: 10px;
+}
+
+img:hover {
+  opacity: 0.25;
+}
+
+img {
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+.text-description {
+  margin-bottom: 24px;
+  font-weight: 300;
+}
+
+.crypto-info {
+  margin: 18px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#eth-info {
+  color: hsl(178, 100%, 50%);
+  font-family: Outfit;
+  font-weight: 600;
+  display: flex;
+  align-items: baseline;
+}
+
+.eth-text {
+  padding-left: 8px;
+}
+
+#clk-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.clk-text {
+  color: hsl(215, 51%, 70%);
+  font-family: Outfit;
+  font-size: 16px;
+  padding-left: 3px;
+}
+
+#clk {
+  width: 15px;
+  height: 15px;
+  margin-right: 2px;
+}
+
+#eth-img {
+  margin-right: 1px;
+  width: 10px;
+  height: 14px;
+}
+
+hr {
+  color: hsl(215, 32%, 27%);
+  margin-bottom: 15px;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+}
+
+#footer-text {
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+#avatar {
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
